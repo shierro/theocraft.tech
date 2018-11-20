@@ -10,7 +10,7 @@ cache:
   directories:
     - node_modules
 deploy:
-  local_dir: build
+  local_dir: /
   provider: pages
   skip_cleanup: true
   fqdn: theocraft.tech
