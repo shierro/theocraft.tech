@@ -1,11 +1,21 @@
-sudo:          false
-language:      node_js
+sudo: false
+language: node_js
 node_js:
   - "node"
-install:       npm install
+install: npm install
 script:
   - npm test
   - gulp
 cache:
   directories:
     - node_modules
+deploy:
+  local_dir: build
+  provider: pages
+  skip_cleanup: true
+  fqdn: theocraft.tech
+  github_token: "$GITHUB_TOKEN"
+  on:
+    branch: master
+after_deploy:
+  - bash ./clearCloudflareCache.sh

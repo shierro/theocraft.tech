@@ -1,8 +1,8 @@
 {
-    "title": "Creative",
-    "name": "startbootstrap-creative",
-    "version": "5.0.1",
-    "description": "Creative is a stylish one page HTML theme for Bootstrap.",
+    "title": "theocraft.tech",
+    "name": "theocraft.tech",
+    "version": "0.1.0",
+    "description": "theocraft.tech",
     "keywords": [
         "css",
         "sass",
@@ -11,19 +11,12 @@
         "theme",
         "template"
     ],
-    "homepage": "https://startbootstrap.com/template-overviews/creative",
-    "bugs": {
-        "url": "https://github.com/BlackrockDigital/startbootstrap-creative/issues",
-        "email": "feedback@startbootstrap.com"
-    },
+    "homepage": "https://theocraft.tech",
     "license": "MIT",
-    "author": "Start Bootstrap",
-    "contributors": [
-        "David Miller (http://davidmiller.io/)"
-    ],
+    "author": "Theo",
     "repository": {
         "type": "git",
-        "url": "https://github.com/BlackrockDigital/startbootstrap-creative.git"
+        "url": "https://github.com/shierro/theocraft.tech"
     },
     "dependencies": {
         "@fortawesome/fontawesome-free": "5.3.1",
