@@ -54,7 +54,13 @@
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      gtag('config', 'UA-127422115-3');
+      gtag('config', 'UA-127422115-3', {
+        'linker': {
+          'domains': ['showcase.theocraft.tech', 'blog.theocraft.tech', 'theocraft.tech', 'portfolio.theocraft.tech', 'www.theocraft.tech']
+        }
+      });
+      var source = window.location.origin + window.location.pathname;
+      gtag('event', 'Pageview - ' + source);
     </script>
   </head>
 
